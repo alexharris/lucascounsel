@@ -270,11 +270,15 @@ header {
 
 .bg-image > ul li {
   display: flex;
-  align-items: center;  
+  align-items: start;  
   justify-content: flex-start;
   text-align: left;
+  line-height: 1.2em;
+  margin-bottom: 1em;
 }
+
 .bg-image > ul li svg {
+  margin-top: 2px;
   margin-right: 10px;
 }
 
@@ -439,6 +443,10 @@ footer .icon-link {
 
   .bg-blue, .bg-white, .bg-gray, .bg-image {
     padding: 30px 20px;
+  }
+
+  .bg-image ul {
+    padding-left: 0;
   }
 
   .bg-gray .two-column {
