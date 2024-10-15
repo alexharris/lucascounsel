@@ -238,7 +238,7 @@ header {
 .bg-image {
   position: relative;
   background-color: white;
-  background-image: url('images/office-bg.jpg');
+  background-image: url('images/office-bg-low-res.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;    
