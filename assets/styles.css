@@ -211,10 +211,8 @@ header {
 
 .fixed-header {
   background-color: #405472;
-  /* position: fixed; */
   width: 100%;
   margin: 0 auto;
-  top: 0px;  
   text-align: center;
 }
 
@@ -425,4 +423,38 @@ footer .icon-link {
   align-items: center;
   color: white;
   gap: 4px;
+}
+
+@media (max-width: 850px) {
+
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    z-index: 500;
+  }
+  .fixed-header img {
+    max-width: 60%;
+    margin: 20px auto;
+  }
+
+  .bg-blue, .bg-white, .bg-gray, .bg-image {
+    padding: 30px 20px;
+  }
+
+  .bg-gray .two-column {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bg-gray .two-column div {
+    width: 100%; 
+  }
+
+  .bg-gray .two-column > *:first-of-type {
+    padding: 0;
+  }   
+
+  .bg-white {
+    padding: 30px 0;
+  }
 }
